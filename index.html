@@ -1,0 +1,138 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Portfólio — Francisco Kauã</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="site-header">
+    <div class="container header-flex">
+      <a class="logo" href="#sobre">Francisco Kauã</a>
+
+      <nav id="main-nav" class="nav">
+        <a href="#sobre">Sobre</a>
+        <a href="#formacao">Formação</a>
+        <a href="#portfolio">Portfólio</a>
+        <a href="#contato">Contato</a>
+      </nav>
+
+      <button id="menu-toggle" aria-label="Abrir menu">☰</button>
+<button id="theme-toggle" aria-label="Tema claro/escuro">
+  <img id="theme-icon" src="imagens/lua.png" alt="Trocar tema">
+</button>
+    </div>
+  </header>
+
+  <main>
+
+    <!-- SOBRE MIM -->
+    <section id="sobre" class="section">
+<h1>Sobre mim</h1>
+
+      <div class="sobre-container">
+
+  <div class="sobre-imagem">
+    <img src="imagens/fotografia.jpg" alt="Foto de Francisco Kauã">
+  </div>
+
+  <div class="sobre-texto">
+    <p>
+      Sou Francisco Kauã, desenvolvedor com formação técnica em Desenvolvimento de Sistemas 
+      pela EEEP Dr. Salomão (2022–2024).
+      Atualmente curso Ciência de Dados pela UNINTER (2025–2027) com foco em Inteligência Artificial.
+      Busco me tornar um cientista de dados e trabalhar em grandes empresas como Microsoft ou Google.
+    </p>
+
+    <p>
+      Tenho experiência com desenvolvimento web, Python, análise de dados, WordPress, React, Next.js e criação de sistemas.
+      Falo inglês intermediário e espanhol básico.
+    </p>
+
+    <p>
+      Meu GitHub:  
+      <a href="https://github.com/KauaNasci" target="_blank">github.com/KauaNasci</a>
+    </p>
+  </div>
+
+</div>
+
+    </section>
+
+    <!-- FORMAÇÃO -->
+    <section id="formacao" class="section">
+  <h2>Formação</h2>
+
+  <div class="formacao-box">
+
+    <div class="formacao-item">
+      <h3>Formação Acadêmica</h3>
+      <ul>
+        <li><strong>Técnico em Desenvolvimento de Sistemas</strong> — EEEP Dr. Salomão (2022–2024)</li>
+        <li><strong>Bacharelado em Ciência de Dados</strong> — UNINTER (2025–2027)</li>
+      </ul>
+    </div>
+
+    <div class="formacao-item">
+      <h3>Idiomas</h3>
+      <ul>
+        <li><strong>Inglês:</strong> Intermediário (estudo ativo focado em conversação e leitura técnica)</li>
+        <li><strong>Espanhol:</strong> Básico (compreensão e comunicação simples)</li>
+      </ul>
+    </div>
+
+    <div class="formacao-item">
+      <h3>Competências Técnicas</h3>
+      <ul>
+        <li>Python • Pandas • SQL • Machine Learning (início)</li>
+        <li>HTML • CSS • JavaScript</li>
+        <li>React • Next.js • WordPress</li>
+        <li>Análise de Dados • Dashboards • Git/GitHub</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+
+    <!-- PORTFÓLIO -->
+<section id="portfolio" class="section">
+  <h2>Portfólio</h2>
+
+  <p class="subtitulo">Alguns projetos e repositórios que demonstram minha evolução</p>
+
+  <ul class="portfolio-list">
+    <li><a href="https://github.com/KauaNasci" target="_blank">🌐 Meu GitHub — Todos os repositórios</a></li>
+    <li><a href="https://github.com/KauaNasci?tab=repositories" target="_blank">📁 Projetos pessoais e estudos</a></li>
+  </ul>
+</section>
+
+    <!-- CONTATO -->
+    <section id="contato" class="section">
+      <h2>Contato</h2>
+
+      <form id="contactForm" novalidate>
+        <label>Nome
+          <input type="text" id="nome" name="nome" />
+        </label>
+
+        <label>E-mail
+          <input type="email" id="email" name="email" />
+        </label>
+
+        <label>Mensagem
+          <textarea id="mensagem" name="mensagem"></textarea>
+        </label>
+
+        <button type="submit">Enviar</button>
+      </form>
+
+      <div id="formMessage" role="status" aria-live="polite"></div>
+    </section>
+
+  </main>
+
+  <script src="script.js"></script>
+</body>
+</html>
